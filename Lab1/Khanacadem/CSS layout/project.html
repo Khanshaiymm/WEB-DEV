@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Birthday </title>
+        <style>
+            .card {
+                width: 70%;
+                max-width: 700px;
+                margin: 30px auto;
+                background: rgb(255, 245, 245);
+                border: 2px solid rgb(140, 20, 20);
+                border-radius: 18px;
+                padding: 25px;
+                font-family: Georgia, serif;
+            }
+            h1 {
+                text-align: center;
+                color: rgb(140, 20, 20);
+            }
+            .photo {
+                width: 150px;
+                float: left;
+                margin-right: 25px;
+            }
+            .rsvp{   /*это для кнопки */
+                background: rgb(140, 20, 20);
+                color: white;
+                text-decoration: none; /*убирает подчеркиваения */
+                padding: 10px 18px;  /* размер кнопки */
+                border-radius: 12px;  /* мягкие углы */
+                display: inline-block;  /* ведёт себя как кнопка */
+    
+            }
+            .button-area {
+                text-align: right;
+            }
+            .rsvp:hover { /* эффект наведения */
+                background: rgb(255, 233, 233);
+                color: rgb(118, 47, 47);
+            }
+            .details {
+                overflow: auto;
+            }
+            .highlight {
+                background: rgb(240, 192, 192);
+                padding: 2px 6px;
+                border-radius: 6px;
+                color: rgb(103, 8, 8);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+
+        <h1>Birthday Invitation</h1>
+        <p>
+            hi! I want to invite you to my birthday party! <br>
+            <strong>please read the party rules! </strong>
+        </p>
+        <div class="details">
+            <img class="photo"
+                src="https://www.kasandbox.org/programming-images/food/cake.png" alt="Cake">
+
+            <ul>
+                <li> Date: 5 February</li>
+                <li> Time: 18:00</li>
+                <li> Place: cafe name </li>
+            </ul>
+        </div>
+        <br>
+        <b><i><span class="highlight">Dress code: Elegant red / black / white</span></i></b>
+        <h3>What to expect</h3>
+        <ul>
+            <li>Music</li>
+            <li>Snacks & cake</li>
+            <li>Photos</li>
+        </ul>
+        <div class="button-area">
+            <a class="rsvp" href="#">LINK TO WHAT'S UP</a>
+        </div>
+        </div>
+    </body>
+</html>
