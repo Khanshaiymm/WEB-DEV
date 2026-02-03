@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Pricing</title>
+</head>
+<body>
+
+  <header class="top_head">
+    <div class="top_head_1">
+      <div class="top_head_logo">
+        <a class="top_head_logo_link" href="#" aria-label="GitHub home">
+          <img class="img_logo" src="gitlogo.png" alt="github logo">
+        </a>
+      </div>
+
+      <nav class="top_head_options" aria-label="Main navigation">
+        <div class="div_sel">
+          <select class="select" aria-label="Platform">
+            <option>Platform</option>
+          </select>
+        </div>
+        <div class="div_sel">
+          <select class="select" aria-label="Solutions">
+            <option>Solutions</option>
+          </select>
+        </div>
+        <div class="div_sel">
+          <select class="select" aria-label="Resources">
+            <option>Resources</option>
+          </select>
+        </div>
+        <div class="div_sel">
+          <select class="select" aria-label="Open Source">
+            <option>Open Source</option>
+          </select>
+        </div>
+        <div class="div_sel">
+          <select class="select" aria-label="Enterprise">
+            <option>Enterprise</option>
+          </select>
+        </div>
+
+        <a class="link_text" href="#">Pricing</a>
+      </nav>
+    </div>
+
+    <div class="top_head_2">
+      <div class="top_head_search">
+        <input class="ths_search" type="search" placeholder="Search..." aria-label="Search">
+      </div>
+      <div class="divider" aria-hidden="true"></div>
+      <a class="thd_dashboard" href="#">Dashboard</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero_part">
+      <h1 class="hero_title">Try the Copilot-powered platform</h1>
+      <p class="Если хочешь — я могу сделать этот блок точнее как в референсе,
+с разделителями внутри тарифов и списками “✓”."></p>
+      <p class="hero_info">
+        We get it, there's a lot you can do with GitHub. That’s why we've packed all of it
+        into a single risk-free trial that includes GitHub Enterprise, Copilot, and Advanced Security.
+      </p>
+      <button class="hero_trial_button" type="button">Start free for 30-days</button>
+    </section>
+
+    <section class="pricing" aria-label="Pricing cards">
+
+      <article class="s_price p_free_outline is-selected" data-plan="free" tabindex="0" role="button" aria-pressed="true">
+        <div class="plan-badge" hidden>RECOMMENDED</div>
+
+        <div class="plan_card p_free">
+          <div class="price_top">
+            <h2 class="pt_title">Free</h2>
+            <p class="pt_p">The basics for individuals<br>and organizations</p>
+
+            <div class="pft_price">
+              <span class="pr_some">
+                <sup class="price_current">$</sup>
+                <span class="price_dol">0</span>
+                <span class="price_cur">USD</span>
+              </span>
+              <span class="pr_date">per user/month</span>
+            </div>
+
+            <button class="p_but p_but_light" type="button">Create a free organization</button>
+          </div>
+
+          <div class="price_bot">
+            <details class="pfbo">
+              <summary><span class="text_bold">Unlimited public/private repositories</span></summary>
+              Host open source projects in public GitHub repositories, accessible via web or command line.
+            </details>
+
+            <details class="pfbo">
+              <summary><span class="text_bold">Dependabot security and version updates</span></summary>
+              Keep projects secure by automatically opening pull requests to update vulnerable dependencies.
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="s_price p_team_outline" data-plan="team" tabindex="0" role="button" aria-pressed="false">
+        <div class="plan-badge" hidden>RECOMMENDED</div>
+
+        <div class="plan_card p_team">
+          <div class="price_top">
+            <h2 class="pt_title">Team</h2>
+            <p class="pt_p">Advanced collaboration for<br>individuals and organizations</p>
+
+            <div class="ptt_price">
+              <span class="pr_some">
+                <sup class="price_current">$</sup>
+                <span class="price_dol">4</span>
+                <span class="price_cur">USD</span>
+              </span>
+              <span class="pr_date">per user/month</span>
+            </div>
+
+            <button class="p_but p_but_dark" type="button">Continue with Team</button>
+          </div>
+
+          <div class="price_bot">
+            <details class="pfbo">
+              <summary><span class="text_bold">Repository rules</span></summary>
+              Enforce restrictions on branches and tags across your organization.
+            </details>
+
+            <details class="pfbo">
+              <summary><span class="text_bold">Draft pull requests</span></summary>
+              Easily discuss and collaborate before formal review.
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="s_price p_ente_outline" data-plan="enterprise" tabindex="0" role="button" aria-pressed="false">
+        <div class="plan-badge">RECOMMENDED</div>
+
+        <div class="plan_card p_enterprise">
+          <div class="price_top">
+            <h2 class="pt_title">Enterprise</h2>
+            <p class="pt_p">Security, compliance,<br>and flexible deployment</p>
+
+            <div class="pet_price">
+              <span class="pr_some">
+                <sup class="price_current">$</sup>
+                <span class="price_dol">21</span>
+                <span class="price_cur">USD</span>
+              </span>
+              <span class="pr_date">per user/month</span>
+            </div>
+
+            <div class="two_buttons">
+              <button class="p_but p_but_dark" type="button">Start a free trial</button>
+              <button class="p_but p_but_light" type="button">Contact Sales</button>
+            </div>
+          </div>
+
+          <div class="price_bot">
+            <details class="pfbo">
+              <summary><span class="text_bold">Data residency</span></summary>
+              Choose a regional cloud deployment for data residency.
+            </details>
+
+            <details class="pfbo">
+              <summary><span class="text_bold">SAML single sign-on</span></summary>
+              Use an identity provider to manage identities.
+            </details>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="addons" aria-label="Additional add-ons">
+      <h2 class="addons_title">Additional add-ons</h2>
+
+      <div class="addons_grid">
+        <article class="addon_card">
+          <div class="addon_icon">🤖</div>
+          <h3 class="addon_name">GitHub Copilot</h3>
+          <p class="addon_desc">
+            Get started for free with up to 2,000 completions and 50 chat requests per month.
+          </p>
+          <a class="addon_link" href="#">Compare plans →</a>
+        </article>
+
+        <article class="addon_card">
+          <div class="addon_icon">🧠</div>
+          <div class="addon_top">
+            <h3 class="addon_name">GitHub Models</h3>
+            <span class="pill">New</span>
+          </div>
+          <p class="addon_desc">
+            Bring industry-leading AI into your workflow, securely, scalably, and with full developer control.
+          </p>
+          <a class="addon_link" href="#">Learn more →</a>
+        </article>
+
+        <article class="addon_card">
+          <div class="addon_icon">🛡️</div>
+          <h3 class="addon_name">GitHub Advanced Security</h3>
+          <p class="addon_desc">
+            Gain peace of mind with our security, privacy, and responsible AI policies.
+          </p>
+          <a class="addon_link" href="#">Learn more →</a>
+        </article>
+
+        <article class="addon_card">
+          <div class="addon_icon">💻</div>
+          <h3 class="addon_name">GitHub Codespaces</h3>
+          <p class="addon_desc">
+            Starting at $0.18 per hour of compute and $0.07 per GB of storage.
+          </p>
+          <a class="addon_link" href="#">Learn more →</a>
+        </article>
+
+        <article class="addon_card">
+          <div class="addon_icon">🎧</div>
+          <h3 class="addon_name">Premium support</h3>
+          <p class="addon_desc">
+            Get expert help for Enterprise Cloud and Enterprise—any hour your team needs it.
+          </p>
+          <a class="addon_link" href="#">Learn more →</a>
+        </article>
+
+        <article class="addon_card">
+          <div class="addon_icon">🗄️</div>
+          <h3 class="addon_name">Git LFS</h3>
+          <p class="addon_desc">
+            $5 per month for 50 GB bandwidth and 50 GB of storage.
+          </p>
+          <a class="addon_link" href="#">Learn more →</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    const cards = document.querySelectorAll('.s_price');
+
+    function selectCard(card) {
+      cards.forEach(c => {
+        const isSelected = (c === card);
+        c.classList.toggle('is-selected', isSelected);
+        c.setAttribute('aria-pressed', isSelected ? 'true' : 'false');
+
+        const badge = c.querySelector('.plan-badge');
+        if (badge) badge.hidden = !(c.dataset.plan === 'enterprise');
+      });
+    }
+
+    cards.forEach(card => {
+      card.addEventListener('click', () => selectCard(card));
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          selectCard(card);
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
