@@ -74,7 +74,6 @@ body{
 .c-orange{ color:#ff5a00; }
 .c-pink{ color:#ff2fa0; }
 
-/* ✅ FIX: убрать фиксированную высоту и не давать картинке вылезать */
 .hero-art{
   position: relative;
   width: 500px;
@@ -83,7 +82,7 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  padding-bottom: 20px; /* место, чтобы не наезжало вниз */
+  padding-bottom: 20px; 
 }
 
 .hero-single{
@@ -274,3 +273,4 @@ body{
   .hero-art{ display:none; }
   .right{ justify-content:center; }
 }
+
