@@ -306,7 +306,6 @@ body{
   color: var(--dark);
 }
 
-/* RESPONSIVE */
 @media (max-width:1282px){
   .top_head_options, .divider{ display:none; }
   .top_head{ padding:0 var(--base-size-16); }
