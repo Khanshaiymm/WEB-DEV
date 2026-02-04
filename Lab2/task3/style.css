@@ -27,7 +27,6 @@ body{
   color:#1b1f23;
 }
 
-/* you said navbar not required, but leaving it is OK */
 .top_head{
   height:72px;
   display:flex;
@@ -101,7 +100,6 @@ body{
   padding:0 var(--base-size-16);
 }
 
-/* HERO */
 .hero_part{
   margin-top:var(--base-size-80);
   margin-bottom:var(--base-size-32);
@@ -134,7 +132,6 @@ body{
   cursor:pointer;
 }
 
-/* PRICING */
 .pricing{
   display:flex;
   gap:1.5rem;
@@ -233,7 +230,6 @@ body{
 .pfbo summary{ cursor:pointer; list-style:none; }
 .pfbo summary::-webkit-details-marker{ display:none; }
 
-/* ADDITIONAL ADD-ONS (required by task) */
 .addons{
   margin-bottom: var(--base-size-80);
   text-align:center;
