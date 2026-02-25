@@ -1,0 +1,86 @@
+.card{
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 360px;
+}
+
+.img{
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f3f4f6;
+}
+
+.name{
+  margin: 0;
+  font-size: 16px;
+}
+
+.desc{
+  margin: 0;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.35;
+  min-height: 34px;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.stock{
+  color: #15803d;
+}
+
+.kaspi{
+  margin-top: auto;
+  display: block;
+  text-align: center;
+  padding: 10px 12px;
+  border: 1px solid #111827;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #111827;
+  font-weight: 600;
+}
+
+.kaspi:hover{
+  background: #111827;
+  color: #fff;
+}
+
+.miniRow{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.mini{
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.danger{
+  border-color: #fecaca;
+  background: #fff5f5;
+}

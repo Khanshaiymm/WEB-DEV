@@ -8,35 +8,17 @@ import { ProductListComponent } from './components/product-list/product-list.com
   selector: 'app-root',
   standalone: true,
   imports: [ProductListComponent],
-  templateUrl: './app.html',
-  styleUrls: ['./app.css'],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
 })
-export class App {
+export class AppComponent {
   categories: Category[] = [];
 
-  // null = ALL
   selectedCategoryId: number | null = null;
-
-  allProducts: Product[] = [];
   selectedProducts: Product[] = [];
 
   constructor(private productService: ProductService) {
     this.categories = this.productService.getCategories();
-
-    // собираем все товары (20)
-    this.allProducts = [
-      ...this.productService.getProductsByCategory(1),
-      ...this.productService.getProductsByCategory(2),
-      ...this.productService.getProductsByCategory(3),
-      ...this.productService.getProductsByCategory(4),
-    ].map(p => ({ ...p })); // копия
-
-    this.selectAll(); // показываем ALL сразу
-  }
-
-  selectAll() {
-    this.selectedCategoryId = null;
-    this.selectedProducts = this.allProducts.map(p => ({ ...p }));
   }
 
   selectCategory(id: number) {
