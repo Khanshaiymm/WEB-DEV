@@ -1,4 +1,4 @@
-# Lab 7 - Task 2 (OOP in Python)
+# Lab 7 - Task 2
 
 ## Description
 This project demonstrates Object-Oriented Programming in Python.
